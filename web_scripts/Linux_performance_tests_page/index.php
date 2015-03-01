@@ -46,7 +46,16 @@
                                     ?>
                                 </pre> 
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="johnny">Debian 6</div>
+                            <!--Applying LTP in OS Debian 7-->
+                            <div role="tabpanel" class="tab-pane" id="johnny">
+                                <h5>Applying LTP in OS Debian 7 - Results</h5>
+                                <pre>
+                                    <?php
+                                    $log_johnny = fopen('Johnny/LTP_RUN_ON-2015_02_28-18h_31m_32s.log', 'r');
+                                   echo fread($log_johnny, filesize('Johnny/LTP_RUN_ON-2015_02_28-18h_31m_32s.log'));
+                                    ?>
+                                </pre> 
+                            </div>
                             <div role="tabpanel" class="tab-pane" id="lucero">
                                 <!--<div class="row-fluid">-->
                                 <div role="tabpanel">

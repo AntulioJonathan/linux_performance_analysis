@@ -42,7 +42,15 @@
                                     frameborder="0"
                                     ></iframe>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="johnny">Debian 6</div>
+                        <!--Results for Powertop 2.7 implemented in Debian 7-->
+                        <div role="tabpanel" class="tab-pane" id="johnny">
+                            <h5>Results for Powertop 2.7 implemented in Debian 7</h5>
+                            <iframe src="Johnny/powertop.html"
+                                    height="1200"
+                                    width="1000"
+                                    frameborder="0"
+                                    ></iframe>
+                        </div>
                         <div role="tabpanel" class="tab-pane" id="lucero">
                             <iframe src="Lucero/powertop.html"
                                     height="1200"
